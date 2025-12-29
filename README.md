@@ -9,8 +9,6 @@ It reflects real-world backend and cloud engineering challenges such as:
 - Failure isolation
 - Serverless scalability
 
-This project is intentionally designed to be **resume-grade and interview-ready**, showcasing system design thinking rather than simple CRUD functionality.
-
 ---
 
 ## Problem Statement
@@ -55,26 +53,26 @@ Downstream Processors (Lambda)
 
 ## Key Features
 
-### 🌐 Multi-Region Deployment
+###  Multi-Region Deployment
 - Identical stacks deployed in multiple AWS regions (e.g., ap-south-1, us-east-1)
 - Route 53 latency-based routing directs users to the nearest region
 
-### ⚡ Serverless & Event-Driven
+###  Serverless & Event-Driven
 - AWS Lambda used for stateless compute
 - EventBridge used to decouple request handling from processing logic
 - Automatic scaling with zero server management
 
-### 🔁 Fault Tolerance & Recovery
+### Fault Tolerance & Recovery
 - Regional isolation using independent deployments
 - DynamoDB Global Tables replicate data across regions
 - Event replay supported through EventBridge
 
-### 🔐 Security
+###  Security
 - IAM roles with least-privilege access
 - VPC-isolated Lambda functions
 - Private subnets and controlled outbound access
 
-### 📊 Observability
+###  Observability
 - CloudWatch logs and metrics
 - Structured logging for event tracing
 - Alarms for error rates and latency
