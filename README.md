@@ -140,13 +140,3 @@ While this is a cloud-native system, core logic can be tested locally using:
 - Distributed tracing with AWS X-Ray
 - Cost optimization via request aggregation
 
----
-
-## Resume Description
-
-> Designed and implemented a multi-region, serverless event processing platform using AWS to deliver low-latency, fault-tolerant backend services through event-driven architecture and regional isolation.
-
----
-
-## Author
-Built as a **cloud-backend portfolio project** to demonstrate real-world system design, scalability, and AWS expertise.
